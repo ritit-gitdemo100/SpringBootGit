@@ -12,10 +12,13 @@ public class HomeController {
 	public String home() {
 		return "Welcome Home";
 	}
-	@GetMapping("/page")
+	@GetMapping("/page1")
 	public String page1() {
 		return "Welcome Page1";
 	}
-	
+	@GetMapping("/page2")
+	public String page2() {
+		return "Welcome Page2";
+	}
 }
 
