@@ -20,5 +20,9 @@ public class HomeController {
 	public String page2() {
 		return "Welcome Page2";
 	}
+	@GetMapping("/page3")
+	public String page3() {
+		return "Welcome Page3";
+	}
 }
 
